@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Ethical Issues in Big Data Analytics</title>
+<meta name="author" content="Petru Rebeja"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://revealjs.com/css/reveal.css"/>
+
+<link rel="stylesheet" href="https://revealjs.com/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://revealjs.com/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1 class="title">Ethical Issues in Big Data Analytics</h1><h2 class="author">Petru Rebeja</h2><p class="date">Created: 2019-05-17 Fri 20:38</p>
+</section>
+<section>
+<section id="slide-org679cb4d">
+<h2 id="org679cb4d">What is <b>Big Data</b>?</h2>
+<div class="outline-text-2" id="text-org679cb4d">
+</div>
+</section>
+<section id="slide-orgaea03e5">
+<h3 id="orgaea03e5">Mind map</h3>
+
+<div class="figure">
+<p><img src="img/big-data-map.png" alt="big-data-map.png" width="75%" />
+</p>
+</div>
+<aside class="notes">
+<p>
+Before giving this presentation I tried to create a mind map of Big Data topics.
+</p>
+
+</aside>
+</section>
+<section id="slide-orgaf8cc03">
+<h3 id="orgaf8cc03">Complex subject to tackle</h3>
+<ul>
+<li class="fragment appear">There is no clear boundary of Big Data</li>
+<li class="fragment appear">The hype makes it even harder to draw a boundary</li>
+
+</ul>
+<aside class="notes">
+<p>
+Big Data is hard to tackle mostly because there isn't a clear boundary of whether something pertains to Big Data or not.
+</p>
+
+<p>
+Also, due to the hype everything seems to be about Big Data and Deep Learning nowadays so it's quite difficult to draw said boundaries.
+</p>
+
+</aside>
+</section>
+<section id="slide-org3f0ca2e">
+<h3 id="org3f0ca2e">It's an umbrella term</h3>
+<ul>
+<li class="fragment appear">The <b>ability</b> to process huge “treasure troves” of data and predict future outcomes</li>
+<li class="fragment appear">A <b>process</b> that “leverages massive data sets and algorithmic analysis” to extract new information and meaning</li>
+<li class="fragment appear">A <b>moment</b> where the data volume, acquisition or velocity limits the use of traditional tools</li>
+<li class="fragment appear">A <b>tactic</b> to operate at a large scale otherwise impossible at smaller scale</li>
+<li class="fragment appear">A <b>topic</b> for academic and industry research</li>
+<li class="fragment appear">A <b>marketable term</b></li>
+
+</ul>
+<p class="fragment (appear)" style="font-size: small">
+Martin, Kirsten. (2015). Ethical Issues in Big Data Industry. MIS Quarterly Executive.
+</p>
+</section>
+<section id="slide-org7d41b9e">
+<h3 id="org7d41b9e">The name is <b>Big Data Analytics</b></h3>
+<blockquote>
+<p>
+The notion of Big Data goes far beyond the increasing quantity and quality of data, and focuses on analysis for intelligent decision making.
+</p>
+</blockquote>
+<p style="font-size: small">
+<a href="http://www.martinhilbert.net/wp-content/uploads/2015/01/BigData4Dev_Hilbert2014.pdf" style="font-size: small">Hilbert, Martin. "Big data for development: A review of promises and challenges." Development Policy Review 34.1 (2016): 135-174.</a>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org7c082e6">
+<h2 id="org7c082e6">How "intelligent" decisions are made?</h2>
+<div class="outline-text-2" id="text-org7c082e6">
+</div>
+</section>
+<section id="slide-orgf0c8db6">
+<h3 id="orgf0c8db6">Intricate use of statistics</h3>
+<pre class="example">
+Target pregnancy story
+</pre>
+<p style="font-size: small">
+<a href="https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html" style="font-size: small">How Companies Learn Your Secrets</a>
+</p>
+<aside class="notes">
+<p>
+About a year after Pole created his pregnancy-prediction model, a man walked into a Target outside Minneapolis and demanded to see the manager. He was clutching coupons that had been sent to his daughter, and he was angry, according to an employee who participated in the conversation.
+</p>
+
+<p>
+“My daughter got this in the mail!” he said. “She’s still in high school, and you’re sending her coupons for baby clothes and cribs? Are you trying to encourage her to get pregnant?”
+</p>
+
+<p>
+The manager didn’t have any idea what the man was talking about. He looked at the mailer. Sure enough, it was addressed to the man’s daughter and contained advertisements for maternity clothing, nursery furniture and pictures of smiling infants. The manager apologized and then called a few days later to apologize again.
+</p>
+
+<p>
+On the phone, though, the father was somewhat abashed. “I had a talk with my daughter,” he said. “It turns out there’s been some activities in my house I haven’t been completely aware of. She’s due in August. I owe you an apology.”
+</p>
+
+</aside>
+</section>
+<section id="slide-org24f5d6d">
+<h3 id="org24f5d6d">Statistics is not an easy science</h3>
+<blockquote>
+<p>
+There are three kinds of lies: lies, damned lies, and statistics.
+</p>
+</blockquote>
+<p style="font-size: small">
+Mark Twain, "Chapters from My Autobiography".
+</p>
+</section>
+<section id="slide-orgc023616">
+<h3 id="orgc023616">The case of Sally Clark</h3>
+<pre class="example">
+Sally Clark was wrogfully found guilty of the murder of her two
+infant sons based on significantly flawed statistical evidence.
+
+She was released from prison after serving three years of her sentence.
+
+Clark's experience caused her to develop serious psychiatric
+problems and she died in her home in March 2007 from alcohol poisoning.
+</pre>
+<p style="font-size: small">
+<a href="https://en.wikipedia.org/wiki/Sally_Clark" style="font-size: small">Sally Clark on Wikipedia</a>
+</p>
+</section>
+<section id="slide-org6d6c20e">
+<h3 id="org6d6c20e">The grim clouds above the umbrella</h3>
+<blockquote>
+<p>
+Framing Big Data as an asset, ability or technique sterilizes an important ethical discussion.
+</p>
+</blockquote>
+<p style="font-size: small">
+Martin, Kirsten. (2015). Ethical Issues in Big Data Industry. MIS Quarterly Executive.
+</p>
+<aside class="notes">
+<p>
+Full quote:
+"Framing Big Data as an asset, ability or technique sterilizes an important ethical discussion. Big Data is mistakenly framed as morally neutral or having benefits that outweigh any costs. Grand statements such as “Big Data itself, like all technology, is ethically neutral” are implicit in reports that focus on the strategic and operational challenges of Big Data, but which largely ignore the ethical and social implications.
+The growing field of data analytics excludes ethical analysis in both practice and academia. Yet creating, aggregating and selling data can change relationships and business models and requires rethinking information governance strategies — including issues concerning ethics and privacy."
+&#x2014;
+Through misuse of statistics or due to faulty models Big Data Analysis can take wrong decisions which can negatively affect a large number of people.
+</p>
+
+</aside>
+</section>
+</section>
+<section>
+<section id="slide-org530bb5a">
+<h2 id="org530bb5a">Ethical Issues in Big Data Analytics</h2>
+<div class="outline-text-2" id="text-org530bb5a">
+</div>
+</section>
+<section id="slide-orgcbcdc8b">
+<h3 id="orgcbcdc8b">Ethical Issue #1: <b>Morality</b></h3>
+<pre class="example">
+In January 2012 Facebook ran an experiment on 700000 of its users
+trying to see if their mood can be altered by the tone of the articles
+they were receiving.
+
+The next week, the manipulated users were more likely to use words
+that were in accordance with the desired mood change.
+</pre>
+<p style="font-size: small">
+<a href="https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/" style="font-size: small">Everything We Know About Facebook's Secret Mood Manipulation Experiment</a>
+</p>
+<p style="font-size: small">
+<a href="https://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html" style="font-size: small">Facebook Tinkers With Users’ Emotions in News Feed Experiment, Stirring Outcry</a>
+</p>
+<aside class="notes">
+<p>
+For one week in January 2012, data scientists skewed what almost 700,000 Facebook users saw when they logged into its service. Some people were shown content with a preponderance of happy and positive words; some were shown content analyzed as sadder than average. And when the week was over, these manipulated users were more likely to post either especially positive or negative words themselves.
+</p>
+
+</aside>
+</section>
+<section id="slide-org38a0fba">
+<h3 id="org38a0fba">What is wrong with that?</h3>
+<ul>
+<li class="fragment appear"><b>Consent</b>
+<ul>
+<li>How many users knew they were part of the experiment?</li>
+<li>How many would have agreed to participate?</li>
+
+</ul></li>
+<li class="fragment appear"><b>Consequences</b>
+<ul>
+<li>How many of those users were struggling with chronic depression and decided to end it all?</li>
+
+</ul></li>
+
+</ul>
+</section>
+<section id="slide-org6eb4d9f">
+<h3 id="org6eb4d9f">Ethical issue #2: <b>Fairness</b></h3>
+<pre class="example">
+Recidivism models (Level of Service Inventory–Revised)
+are intended to eliminate human bias.
+</pre>
+<p style="font-size: small">
+<a href="https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815" style="font-size: small">O'Neil Cathy, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</a>
+</p>
+</section>
+<section id="slide-org4d511c2">
+<h3 id="org4d511c2">What's wrong with that?</h3>
+<blockquote>
+<p>
+The question is, however, whether the bias was eliminated or just camouflaged with technology?
+</p>
+</blockquote>
+<p style="font-size: small">
+<a href="https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815" style="font-size: small">O'Neil Cathy, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</a>
+</p>
+</section>
+<section id="slide-org8734222">
+<h3 id="org8734222">Ethical issue #3: <b>Accidental harm is harm nonetheless</b></h3>
+<pre class="example">
+An Youtube video of a small girl doing gymnastics is harmless, right?
+</pre>
+</section>
+<section id="slide-org859f5c0">
+<h3 id="org859f5c0">What's wrong with that?</h3>
+<ul>
+<li class="fragment appear">Youtubes' recommendation engine has created a wormhole where it recommends only such kind of videos</li>
+<li class="fragment appear">This wormhole <i>is</i> a treasure trove for pedophiles</li>
+
+</ul>
+<p class="fragment (appear)" style="font-size: small">
+<a href="https://www.youtube.com/watch?v=O13G5A5w5P0" class="fragment (appear)" style="font-size: small">Youtube is Facilitating the Sexual Exploitation of Children, and it's Being Monetized (2019)</a>
+</p>
+</section>
+<section id="slide-orgc985ac4">
+<h3 id="orgc985ac4">Ethical issue #4: <b>Privacy</b></h3>
+<blockquote>
+<p>
+Outlier detection is the identification of rare items, events or observations which raise suspicions by differing significantly from the majority of the data.
+</p>
+</blockquote>
+<p style="font-size: small">
+Zimek A., Schubert E. (2017) Outlier Detection. In: Liu L., Özsu M. (eds) Encyclopedia of Database Systems. Springer, New York, NY
+</p>
+</section>
+<section id="slide-org78e7e7a">
+<h3 id="org78e7e7a">What's wrong with that?</h3>
+<ul>
+<li class="fragment appear">For a bank it's a transaction in Venezuela which occurred only an hour after paying with your credit card at a local grocery store in Romania.</li>
+<li class="fragment appear">For a census bureau <b>it might be a person who didn't vote for the ruling party</b>.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org6be72ee">
+<h2 id="org6be72ee">Should Big Data Analytics be banned?</h2>
+<div class="outline-text-2" id="text-org6be72ee">
+</div>
+</section>
+<section id="slide-org656e5c2">
+<h3 id="org656e5c2">Definitely NOT</h3>
+</section>
+</section>
+<section>
+<section id="slide-orgd3bbeed">
+<h2 id="orgd3bbeed">What should we do?</h2>
+<div class="outline-text-2" id="text-orgd3bbeed">
+</div>
+</section>
+<section id="slide-orgea16261">
+<h3 id="orgea16261">Switch focus</h3>
+<blockquote>
+<p>
+Despite the potential to create harm, the Big Data Industry has the potential to be a force for good and the focus therefore should be on implementing [data stewardship practices] to create value for all stakeholders.
+</p>
+</blockquote>
+<p>
+Kristen E. Martin, Ethical Issues in the Big Data Industry
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="https://revealjs.com/lib/js/head.min.js"></script>
+<script src="https://revealjs.com/js/reveal.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+pdfSeparateFragments: true,
+
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transitionSpeed: 'default',
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'https://revealjs.com/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'https://revealjs.com/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://revealjs.com/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'https://revealjs.com/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'https://revealjs.com/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
+});
+</script>
+</body>
+</html>

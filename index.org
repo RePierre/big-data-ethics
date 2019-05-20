@@ -140,11 +140,37 @@ On the phone, though, the father was somewhat abashed. “I had a talk with my d
    #+ATTR_REVEAL: :frag (appear)
    - For a bank it's a transaction in Venezuela which occurred only an hour after paying with your credit card at a local grocery store in Romania.
    - For a census bureau *it might be a person who didn't vote for the ruling party*.
-* Should Big Data Analytics be banned?
-** Definitely NOT
-* What should we do?
-** Switch focus
-   #+begin_quote
-   Despite the potential to create harm, the Big Data Industry has the potential to be a force for good and the focus therefore should be on implementing [data stewardship practices] to create value for all stakeholders.
-   #+end_quote
-   Kristen E. Martin, Ethical Issues in the Big Data Industry
+* Reflections
+** Should Big Data Analytics be banned?
+*** Definitely NOT
+** What should we do?
+*** Switch focus
+    #+begin_quote
+    Despite the potential to create harm, the Big Data Industry has the potential to be a force for good and the focus therefore should be on implementing [data stewardship practices] to create value for all stakeholders.
+    #+end_quote
+    Kristen E. Martin, Ethical Issues in the Big Data Industry
+*** Properly define success
+    - Success of a model should be defined by the interests of all stakeholders
+    #+begin_quote
+    [Weapons of Math Destruction] tend to punish the poor [...] The privileged, we’ll see time and again, are processed more by people, the masses by machines.
+    #+end_quote
+    #+ATTR_HTML: :style font-size: small
+    [[https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815][O'Neil Cathy, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy]]
+*** Develop profiling tools
+    - Big Data models are *black boxes*
+    - Even though academia strives to make them more transparent, the commercial interest is to keep those models as opaque as possible
+    - What we need is a set of tools that can assess the integrity and fairness of a model without disclosing commercial secrets
+*** Add & improve regulations
+    - A free market is where the innovation thrives
+    - However, sensitive areas *need regulations* before substantial harm is done
+    - [[https://eugdpr.org/][GDPR]] is a good start but not it's enough; it needs to be reviewed and improved constantly
+* Final tought
+  #+begin_quote
+  If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.
+  #+end_quote
+  #+ATTR_HTML: :style font-size: small
+  Sun Tzu, The Art of War
+  #+begin_notes
+  This situation is unprecedented and there is no silver bullet for all the issues above. And in this new age, the old saying of Sun Tzu can be viewed from a new perspective - "know thine enemy" really means doing what humans have been doing throughout the entire evolution of civilizations - learn the dangers of the new tools and modify/adapt them for safer use.
+  #+end_notes
+* Thank you!

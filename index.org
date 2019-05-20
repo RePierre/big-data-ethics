@@ -140,6 +140,20 @@ On the phone, though, the father was somewhat abashed. “I had a talk with my d
    #+ATTR_REVEAL: :frag (appear)
    - For a bank it's a transaction in Venezuela which occurred only an hour after paying with your credit card at a local grocery store in Romania.
    - For a census bureau *it might be a person who didn't vote for the ruling party*.
+** Ethical issue #5: *Big Brother*
+   #+begin_quote
+   China plans to build a government-led national social credit system by 2020 to assess individuals, enterprises and government agencies on credit in four areas - administrative affairs, commercial activities, social behavior, and the judicial system, according to an outline issued by the State Council in 2014.
+   #+end_quote
+   #+ATTR_HTML: :style font-size: small
+   [[http://www.globaltimes.cn/content/1149741.shtml][Social credit system to restore morality]]
+** What's wrong with that?
+   #+begin_quote
+   As of March, /13.49 million individuals/ have been classified as untrustworthy and rejected access to 20.47 million plane tickets and 5.71 million high-speed train tickets for being dishonest, data released by the NDRC showed.
+
+   The social credit system is *vital for the government* to raise the social management level.
+   #+end_quote
+   #+ATTR_HTML: :style font-size: small
+   [[http://www.globaltimes.cn/content/1149741.shtml][Social credit system to restore morality]]
 * Reflections
 ** Should Big Data Analytics be banned?
 *** Definitely NOT

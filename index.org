@@ -21,8 +21,8 @@ Also, due to the hype everything seems to be about Big Data and Deep Learning no
 ** It's an umbrella term
    #+ATTR_REVEAL: :frag (appear)
    - The *ability* to process huge “treasure troves” of data and predict future outcomes
-   - A *process* that “leverages massive data sets and algorithmic analysis” to extract new information and meaning
-   - A *moment* where the data volume, acquisition or velocity limits the use of traditional tools
+   - A *process* that “leverages massive data sets and algorithmic analysis” to extract new insights
+   - A *moment* where the use of traditional tools is limited by the data volume, acquisition or velocity
    - A *tactic* to operate at a large scale otherwise impossible at smaller scale
    - A *topic* for academic and industry research
    - A *marketable term*

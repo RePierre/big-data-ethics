@@ -4,8 +4,10 @@
 #+REVEAL_ROOT: https://revealjs.com/
 * What is *Big Data*?
 ** Mind map
-   #+ATTR_HTML: :width 75%
+   #+ATTR_HTML: :width 70%
    [[file:img/big-data-map.png]]
+   #+ATTR_HTML: :style font-size: small
+   Created in collaboration with my colleague Mihai Mircescu.
 #+begin_notes
 Before giving this presentation I tried to create a mind map of Big Data topics.
 #+end_notes

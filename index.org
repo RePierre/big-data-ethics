@@ -36,9 +36,9 @@ Also, due to the hype everything seems to be about Big Data and Deep Learning no
    #+ATTR_HTML: :style font-size: small
    [[http://www.martinhilbert.net/wp-content/uploads/2015/01/BigData4Dev_Hilbert2014.pdf][Hilbert, Martin. "Big data for development: A review of promises and challenges." Development Policy Review 34.1 (2016): 135-174.]]
 * How "intelligent" decisions are made?
-** Intricate use of statistics
+** Intricate use of statistics and probability theory
    #+begin_example
-     Target pregnancy story
+   Target pregnancy story
    #+end_example
    #+ATTR_HTML: :style font-size: small
    [[https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html][How Companies Learn Your Secrets]]

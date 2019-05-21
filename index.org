@@ -38,7 +38,12 @@ Also, due to the hype everything seems to be about Big Data and Deep Learning no
 * How "intelligent" decisions are made?
 ** Intricate use of statistics and probability theory
    #+begin_example
-   Target pregnancy story
+   Target created a model that would predict if a customer
+   is pregnant based on her purchase history.
+
+   The model was deployed unbeknownst to shop managers
+   and was able to predict the pregnancy of a
+   Minneapolis customer before her father found out about it.
    #+end_example
    #+ATTR_HTML: :style font-size: small
    [[https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html][How Companies Learn Your Secrets]]

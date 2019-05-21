@@ -148,7 +148,7 @@ On the phone, though, the father was somewhat abashed. “I had a talk with my d
    [[http://www.globaltimes.cn/content/1149741.shtml][Social credit system to restore morality]]
 ** What's wrong with that?
    #+begin_quote
-   As of March, /13.49 million individuals/ have been classified as untrustworthy and rejected access to 20.47 million plane tickets and 5.71 million high-speed train tickets for being dishonest, data released by the NDRC showed.
+   As of March, /13.49 million individuals/ have been classified as untrustworthy and rejected access to 20.47 million plane tickets and 5.71 million high-speed train tickets for being dishonest [...]
 
    The social credit system is *vital for the government* to raise the social management level.
    #+end_quote

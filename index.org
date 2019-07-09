@@ -37,6 +37,14 @@ Also, due to the hype everything seems to be about Big Data and Deep Learning no
    #+end_quote
    #+ATTR_HTML: :style font-size: small
    [[http://www.martinhilbert.net/wp-content/uploads/2015/01/BigData4Dev_Hilbert2014.pdf][Hilbert, Martin. "Big data for development: A review of promises and challenges." Development Policy Review 34.1 (2016): 135-174.]]
+** Setting the scope
+   #+ATTR_HTML: :style font-size: medium
+   For the purpose of this talk we will consider AI/ML to be a part of Big Data Analytics.
+   #+ATTR_HTML: :width 50%
+   [[file:img/talk-scope.png]]
+   #+begin_notes
+   Real-world applications of AI/ML, especially those that should undergo an analysis from the perspective of ethics, do not work with toy datasets but with huge amounts of data. From this point of view, AI/ML *is* Big Data.
+   #+end_notes
 * How "intelligent" decisions are made?
 ** Intricate use of statistics and probability theory
    #+begin_example
@@ -178,7 +186,7 @@ On the phone, though, the father was somewhat abashed. “I had a talk with my d
     #+ATTR_HTML: :style font-size: small
     [[https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815][O'Neil Cathy, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy]]
 *** Develop profiling tools
-    - Big Data models are *black boxes*
+    - Big Data/AI/ML models are *black boxes*
     - Even though academia strives to make them more transparent, the commercial interest is to keep those models as opaque as possible
     - What we need is a set of tools that can assess the integrity and fairness of a model without disclosing commercial secrets
     #+begin_notes

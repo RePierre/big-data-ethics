@@ -198,6 +198,23 @@ On the phone, though, the father was somewhat abashed. “I had a talk with my d
     - A free market is where the innovation thrives
     - However, sensitive areas *need regulations* before substantial harm is done
     - [[https://eugdpr.org/][GDPR]] is a good start but not it's enough; it needs to be reviewed and improved constantly
+*** Define a strategy
+   #+ATTR_HTML: :width 35%
+   [[file:img/national-ai-strategy.png]]
+   #+ATTR_HTML: :style font-size: small
+   [[https://drive.google.com/file/d/1A-RCl1djDIo8FTZmkK7Hp72QrX8G2z3T/view][Romania in the era of Artificial Intelligence: A strategy for the development and adoption of AI technology at a country level]] - a project by [[https://repatriot.ro/][repatriot]].
+   #+begin_notes
+   It gives me great pleasure to announce that on July 4th 2019 a draft for the National Strategy for AI has been presented to the public. The draft was developed by the [[https://repatriot.ro/][Repatriot initiative]] with the aid from external experts. The draft defines the vision, the mission and strategic directions for AI in Romania alongside with a handfull of project proposals.
+   #+end_notes
+*** Increase awareness
+    #+begin_quote
+    Education is a better safeguard of liberty than a standing army.
+    #+end_quote
+    #+ATTR_HTML: :style font-size: small
+    Edward Everett
+    #+begin_notes
+    We need better education in order to "win the war" for the liberty of our data. This means that the topics of ethics in Big Data Analytics/AI/ML should be studied in school.
+    #+end_notes
 * Final tought
   #+begin_quote
   If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.

@@ -225,3 +225,5 @@ On the phone, though, the father was somewhat abashed. “I had a talk with my d
   This situation is unprecedented and there is no silver bullet for all the issues above. And in this new age, the old saying of Sun Tzu can be viewed from a new perspective - "know thine enemy" really means doing what humans have been doing throughout the entire evolution of civilizations - learn the dangers of the new tools and modify/adapt them for safer use.
   #+end_notes
 * Thank you!
+  #+ATTR_HTML: :width 30%
+  [[file:img/feedback.png]]

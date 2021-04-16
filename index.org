@@ -1,7 +1,7 @@
 #+TITLE: Ethical Issues in Big Data Analytics
 #+AUTHOR: Petru Rebeja
 #+OPTIONS: toc:nil date:nil num:nil
-#+REVEAL_ROOT: https://revealjs.com/
+#+REVEAL_ROOT: ./
 * What is *Big Data*?
 ** Mind map
    #+ATTR_HTML: :width 70%

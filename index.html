@@ -7,21 +7,9 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="https://revealjs.com/css/reveal.css"/>
+<link rel="stylesheet" href="./dist/reveal.css"/>
 
-<link rel="stylesheet" href="https://revealjs.com/css/theme/moon.css" id="theme"/>
-
-
-<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-<script>
-    if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = 'https://revealjs.com/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    }
-</script>
+<link rel="stylesheet" href="./dist/theme/black.css" id="theme"/>
 </head>
 <body>
 <div class="reveal">
@@ -30,15 +18,15 @@
 <h1 class="title">Ethical Issues in Big Data Analytics</h1><h2 class="author">Petru Rebeja</h2>
 </section>
 <section>
-<section id="slide-org7d72568">
-<h2 id="org7d72568">What is <b>Big Data</b>?</h2>
-<div class="outline-text-2" id="text-org7d72568">
+<section id="slide-org8b9ea8f">
+<h2 id="org8b9ea8f">What is <b>Big Data</b>?</h2>
+<div class="outline-text-2" id="text-org8b9ea8f">
 </div>
 </section>
-<section id="slide-org11c9ea9">
-<h3 id="org11c9ea9">Mind map</h3>
+<section id="slide-org507ce08">
+<h3 id="org507ce08">Mind map</h3>
 
-<div class="figure">
+<div id="org6ab8584" class="figure">
 <p><img src="img/big-data-map.png" alt="big-data-map.png" width="70%" />
 </p>
 </div>
@@ -52,8 +40,8 @@ Before giving this presentation I tried to create a mind map of Big Data topics.
 
 </aside>
 </section>
-<section id="slide-org3191549">
-<h3 id="org3191549">Complex subject to tackle</h3>
+<section id="slide-org9d2d307">
+<h3 id="org9d2d307">Complex subject to tackle</h3>
 <ul>
 <li class="fragment appear">There is no clear boundary of Big Data</li>
 <li class="fragment appear">The hype makes it even harder to draw a boundary</li>
@@ -70,8 +58,8 @@ Also, due to the hype everything seems to be about Big Data and Deep Learning no
 
 </aside>
 </section>
-<section id="slide-org07670e0">
-<h3 id="org07670e0">It's an umbrella term</h3>
+<section id="slide-org86d8891">
+<h3 id="org86d8891">It's an umbrella term</h3>
 <ul>
 <li class="fragment appear">The <b>ability</b> to process huge “treasure troves” of data and predict future outcomes</li>
 <li class="fragment appear">A <b>process</b> that “leverages massive data sets and algorithmic analysis” to extract new insights</li>
@@ -81,12 +69,12 @@ Also, due to the hype everything seems to be about Big Data and Deep Learning no
 <li class="fragment appear">A <b>marketable term</b></li>
 
 </ul>
-<p class="fragment (appear)" style="font-size: small">
+<p style="font-size: small" class="fragment (appear)">
 Martin, Kirsten. (2015). Ethical Issues in Big Data Industry. MIS Quarterly Executive.
 </p>
 </section>
-<section id="slide-orge0a8740">
-<h3 id="orge0a8740">The name is <b>Big Data Analytics</b></h3>
+<section id="slide-org21c072f">
+<h3 id="org21c072f">The name is <b>Big Data Analytics</b></h3>
 <blockquote>
 <p>
 The notion of Big Data goes far beyond the increasing quantity and quality of data, and focuses on analysis for intelligent decision making.
@@ -96,13 +84,13 @@ The notion of Big Data goes far beyond the increasing quantity and quality of da
 <a href="http://www.martinhilbert.net/wp-content/uploads/2015/01/BigData4Dev_Hilbert2014.pdf" style="font-size: small">Hilbert, Martin. "Big data for development: A review of promises and challenges." Development Policy Review 34.1 (2016): 135-174.</a>
 </p>
 </section>
-<section id="slide-org1108b21">
-<h3 id="org1108b21">Setting the scope</h3>
+<section id="slide-orgb5080e2">
+<h3 id="orgb5080e2">Setting the scope</h3>
 <p style="font-size: medium">
 For the purpose of this talk we will consider AI/ML to be a part of Big Data Analytics.
 </p>
 
-<div class="figure">
+<div id="orgd35f2ae" class="figure">
 <p><img src="img/talk-scope.png" alt="talk-scope.png" width="50%" />
 </p>
 </div>
@@ -115,14 +103,14 @@ Real-world applications of AI/ML, especially those that should undergo an analys
 </section>
 </section>
 <section>
-<section id="slide-orgbd26135">
-<h2 id="orgbd26135">How "intelligent" decisions are made?</h2>
-<div class="outline-text-2" id="text-orgbd26135">
+<section id="slide-orgc65d33e">
+<h2 id="orgc65d33e">How "intelligent" decisions are made?</h2>
+<div class="outline-text-2" id="text-orgc65d33e">
 </div>
 </section>
-<section id="slide-org4de184c">
-<h3 id="org4de184c">Intricate use of statistics and probability theory</h3>
-<pre class="example">
+<section id="slide-orgb11cfae">
+<h3 id="orgb11cfae">Intricate use of statistics and probability theory</h3>
+<pre class="example" id="orgc26256d">
 Target created a model that would predict if a customer
 is pregnant based on her purchase history.
 
@@ -152,8 +140,8 @@ On the phone, though, the father was somewhat abashed. “I had a talk with my d
 
 </aside>
 </section>
-<section id="slide-org1faae98">
-<h3 id="org1faae98">Statistics is not an easy science</h3>
+<section id="slide-org999782f">
+<h3 id="org999782f">Statistics is not an easy science</h3>
 <blockquote>
 <p>
 There are three kinds of lies: lies, damned lies, and statistics.
@@ -163,9 +151,9 @@ There are three kinds of lies: lies, damned lies, and statistics.
 Mark Twain, "Chapters from My Autobiography".
 </p>
 </section>
-<section id="slide-org31dd02a">
-<h3 id="org31dd02a">The case of Sally Clark</h3>
-<pre class="example">
+<section id="slide-orgca69f6b">
+<h3 id="orgca69f6b">The case of Sally Clark</h3>
+<pre class="example" id="org35c5bec">
 Sally Clark was wrogfully found guilty of the murder of her two
 infant sons based on significantly flawed statistical evidence.
 
@@ -178,8 +166,8 @@ problems and she died in her home in March 2007 from alcohol poisoning.
 <a href="https://en.wikipedia.org/wiki/Sally_Clark" style="font-size: small">Sally Clark on Wikipedia</a>
 </p>
 </section>
-<section id="slide-org871e1e4">
-<h3 id="org871e1e4">The grim clouds above the umbrella</h3>
+<section id="slide-orgafc53a5">
+<h3 id="orgafc53a5">The grim clouds above the umbrella</h3>
 <blockquote>
 <p>
 Framing Big Data as an asset, ability or technique sterilizes an important ethical discussion.
@@ -201,14 +189,14 @@ Through misuse of statistics or due to faulty models Big Data Analysis can take 
 </section>
 </section>
 <section>
-<section id="slide-org713c3e1">
-<h2 id="org713c3e1">Ethical Issues in Big Data Analytics</h2>
-<div class="outline-text-2" id="text-org713c3e1">
+<section id="slide-org35ea0b4">
+<h2 id="org35ea0b4">Ethical Issues in Big Data Analytics</h2>
+<div class="outline-text-2" id="text-org35ea0b4">
 </div>
 </section>
-<section id="slide-org7f9f24a">
-<h3 id="org7f9f24a">Ethical Issue #1: <b>Morality</b></h3>
-<pre class="example">
+<section id="slide-org9a28c4f">
+<h3 id="org9a28c4f">Ethical Issue #1: <b>Morality</b></h3>
+<pre class="example" id="org169ec88">
 In January 2012 Facebook ran an experiment on 700000 of its users
 trying to see if their mood can be altered by the tone of the articles
 they were receiving.
@@ -229,8 +217,8 @@ For one week in January 2012, data scientists skewed what almost 700,000 Faceboo
 
 </aside>
 </section>
-<section id="slide-orgaff2e3d">
-<h3 id="orgaff2e3d">What is wrong with that?</h3>
+<section id="slide-orgfe91f8e">
+<h3 id="orgfe91f8e">What is wrong with that?</h3>
 <ul>
 <li class="fragment appear"><b>Consent</b>
 <ul>
@@ -246,9 +234,9 @@ For one week in January 2012, data scientists skewed what almost 700,000 Faceboo
 
 </ul>
 </section>
-<section id="slide-org29ee0ae">
-<h3 id="org29ee0ae">Ethical issue #2: <b>Fairness</b></h3>
-<pre class="example">
+<section id="slide-org208b376">
+<h3 id="org208b376">Ethical issue #2: <b>Fairness</b></h3>
+<pre class="example" id="orgcca58fe">
 Recidivism models (Level of Service Inventory–Revised)
 are intended to eliminate human bias.
 </pre>
@@ -256,8 +244,8 @@ are intended to eliminate human bias.
 <a href="https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815" style="font-size: small">O'Neil Cathy, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</a>
 </p>
 </section>
-<section id="slide-org50388e0">
-<h3 id="org50388e0">What's wrong with that?</h3>
+<section id="slide-org58b084f">
+<h3 id="org58b084f">What's wrong with that?</h3>
 <blockquote>
 <p>
 The question is, however, whether the bias was eliminated or just camouflaged with technology?
@@ -267,25 +255,25 @@ The question is, however, whether the bias was eliminated or just camouflaged wi
 <a href="https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815" style="font-size: small">O'Neil Cathy, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</a>
 </p>
 </section>
-<section id="slide-org84cbcbe">
-<h3 id="org84cbcbe">Ethical issue #3: <b>Accidental harm is harm nonetheless</b></h3>
-<pre class="example">
+<section id="slide-org7d8d79a">
+<h3 id="org7d8d79a">Ethical issue #3: <b>Accidental harm is harm nonetheless</b></h3>
+<pre class="example" id="org757dd26">
 An Youtube video of a small girl doing gymnastics is harmless, right?
 </pre>
 </section>
-<section id="slide-org967bc5e">
-<h3 id="org967bc5e">What's wrong with that?</h3>
+<section id="slide-org33db9eb">
+<h3 id="org33db9eb">What's wrong with that?</h3>
 <ul>
 <li class="fragment appear">Youtubes' recommendation engine has created a wormhole where it recommends only such kind of videos</li>
 <li class="fragment appear">This wormhole <i>is</i> a treasure trove for pedophiles</li>
 
 </ul>
-<p class="fragment (appear)" style="font-size: small">
-<a href="https://www.youtube.com/watch?v=O13G5A5w5P0" class="fragment (appear)" style="font-size: small">Youtube is Facilitating the Sexual Exploitation of Children, and it's Being Monetized (2019)</a>
+<p style="font-size: small" class="fragment (appear)">
+<a href="https://www.youtube.com/watch?v=O13G5A5w5P0" style="font-size: small" class="fragment (appear)">Youtube is Facilitating the Sexual Exploitation of Children, and it's Being Monetized (2019)</a>
 </p>
 </section>
-<section id="slide-orgce6287d">
-<h3 id="orgce6287d">Ethical issue #4: <b>Privacy</b></h3>
+<section id="slide-org855f7ab">
+<h3 id="org855f7ab">Ethical issue #4: <b>Privacy</b></h3>
 <blockquote>
 <p>
 Outlier detection is the identification of rare items, events or observations which raise suspicions by differing significantly from the majority of the data.
@@ -295,16 +283,16 @@ Outlier detection is the identification of rare items, events or observations wh
 Zimek A., Schubert E. (2017) Outlier Detection. In: Liu L., Özsu M. (eds) Encyclopedia of Database Systems. Springer, New York, NY
 </p>
 </section>
-<section id="slide-org9b2cf4a">
-<h3 id="org9b2cf4a">What's wrong with that?</h3>
+<section id="slide-org97d646a">
+<h3 id="org97d646a">What's wrong with that?</h3>
 <ul>
 <li class="fragment appear">For a bank it's a transaction in Venezuela which occurred only an hour after paying with your credit card at a local grocery store in Romania.</li>
 <li class="fragment appear">For a census bureau <b>it might be a person who didn't vote for the ruling party</b>.</li>
 
 </ul>
 </section>
-<section id="slide-orgc2e26ed">
-<h3 id="orgc2e26ed">Ethical issue #5: <b>Big Brother</b></h3>
+<section id="slide-org993f317">
+<h3 id="org993f317">Ethical issue #5: <b>Big Brother</b></h3>
 <blockquote>
 <p>
 China plans to build a government-led national social credit system by 2020 to assess individuals, enterprises and government agencies on credit in four areas - administrative affairs, commercial activities, social behavior, and the judicial system, according to an outline issued by the State Council in 2014.
@@ -314,8 +302,8 @@ China plans to build a government-led national social credit system by 2020 to a
 <a href="http://www.globaltimes.cn/content/1149741.shtml" style="font-size: small">Social credit system to restore morality</a>
 </p>
 </section>
-<section id="slide-org4406492">
-<h3 id="org4406492">What's wrong with that?</h3>
+<section id="slide-org7dd066b">
+<h3 id="org7dd066b">What's wrong with that?</h3>
 <blockquote>
 <p>
 As of March, <i>13.49 million individuals</i> have been classified as untrustworthy and rejected access to 20.47 million plane tickets and 5.71 million high-speed train tickets for being dishonest [&#x2026;]
@@ -331,26 +319,26 @@ The social credit system is <b>vital for the government</b> to raise the social 
 </section>
 </section>
 <section>
-<section id="slide-org0e501a2">
-<h2 id="org0e501a2">Reflections</h2>
-<div class="outline-text-2" id="text-org0e501a2">
+<section id="slide-org2e672fe">
+<h2 id="org2e672fe">Reflections</h2>
+<div class="outline-text-2" id="text-org2e672fe">
 </div>
 </section>
-<section id="slide-org926ddd9">
-<h3 id="org926ddd9">Should Big Data Analytics be banned?</h3>
-<div class="outline-text-3" id="text-org926ddd9">
+<section id="slide-org0b54d07">
+<h3 id="org0b54d07">Should Big Data Analytics be banned?</h3>
+<div class="outline-text-3" id="text-org0b54d07">
 </div>
 </section>
-<section id="slide-org345eab1">
-<h4 id="org345eab1">Definitely NOT</h4>
+<section id="slide-orgf049bed">
+<h4 id="orgf049bed">Definitely NOT</h4>
 </section>
-<section id="slide-org79e30c1">
-<h3 id="org79e30c1">What should we do?</h3>
-<div class="outline-text-3" id="text-org79e30c1">
+<section id="slide-org50dd1b6">
+<h3 id="org50dd1b6">What should we do?</h3>
+<div class="outline-text-3" id="text-org50dd1b6">
 </div>
 </section>
-<section id="slide-org957ab13">
-<h4 id="org957ab13">Switch focus</h4>
+<section id="slide-org451cfef">
+<h4 id="org451cfef">Switch focus</h4>
 <blockquote>
 <p>
 Despite the potential to create harm, the Big Data Industry has the potential to be a force for good and the focus therefore should be on implementing [data stewardship practices] to create value for all stakeholders.
@@ -360,8 +348,8 @@ Despite the potential to create harm, the Big Data Industry has the potential to
 Kristen E. Martin, Ethical Issues in the Big Data Industry
 </p>
 </section>
-<section id="slide-orgf6e47bd">
-<h4 id="orgf6e47bd">Properly define success</h4>
+<section id="slide-orgebb5b74">
+<h4 id="orgebb5b74">Properly define success</h4>
 <ul>
 <li>Success of a model should be defined by the interests of all stakeholders</li>
 
@@ -375,8 +363,8 @@ Kristen E. Martin, Ethical Issues in the Big Data Industry
 <a href="https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815" style="font-size: small">O'Neil Cathy, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</a>
 </p>
 </section>
-<section id="slide-orgf84d5af">
-<h4 id="orgf84d5af">Develop profiling tools</h4>
+<section id="slide-orgf68ae99">
+<h4 id="orgf68ae99">Develop profiling tools</h4>
 <ul>
 <li>Big Data/AI/ML models are <b>black boxes</b></li>
 <li>Even though academia strives to make them more transparent, the commercial interest is to keep those models as opaque as possible</li>
@@ -394,8 +382,8 @@ The tools we need to profile Big Data models should do the same - they should be
 
 </aside>
 </section>
-<section id="slide-org2b9b3e5">
-<h4 id="org2b9b3e5">Add &amp; improve regulations</h4>
+<section id="slide-org6053800">
+<h4 id="org6053800">Add &amp; improve regulations</h4>
 <ul>
 <li>A free market is where the innovation thrives</li>
 <li>However, sensitive areas <b>need regulations</b> before substantial harm is done</li>
@@ -403,10 +391,10 @@ The tools we need to profile Big Data models should do the same - they should be
 
 </ul>
 </section>
-<section id="slide-org720bd9f">
-<h4 id="org720bd9f">Define a strategy</h4>
+<section id="slide-org0f4ecb3">
+<h4 id="org0f4ecb3">Define a strategy</h4>
 
-<div class="figure">
+<div id="org0278156" class="figure">
 <p><img src="img/national-ai-strategy.png" alt="national-ai-strategy.png" width="35%" />
 </p>
 </div>
@@ -420,8 +408,8 @@ It gives me great pleasure to announce that on July 4th 2019 a draft for the Nat
 
 </aside>
 </section>
-<section id="slide-orga236b2d">
-<h4 id="orga236b2d">Increase awareness</h4>
+<section id="slide-orgc4fab10">
+<h4 id="orgc4fab10">Increase awareness</h4>
 <blockquote>
 <p>
 Education is a better safeguard of liberty than a standing army.
@@ -439,8 +427,8 @@ We need better education in order to "win the war" for the liberty of our data. 
 </section>
 </section>
 <section>
-<section id="slide-orgcf09df9">
-<h2 id="orgcf09df9">Final tought</h2>
+<section id="slide-org8903f68">
+<h2 id="org8903f68">Final tought</h2>
 <blockquote>
 <p>
 If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.
@@ -458,10 +446,10 @@ This situation is unprecedented and there is no silver bullet for all the issues
 </section>
 </section>
 <section>
-<section id="slide-orgecaaf5f">
-<h2 id="orgecaaf5f">Thank you!</h2>
+<section id="slide-org278c3ba">
+<h2 id="org278c3ba">Thank you!</h2>
 
-<div class="figure">
+<div id="orge1e12d1" class="figure">
 <p><img src="img/feedback.png" alt="feedback.png" width="30%" />
 </p>
 </div>
@@ -469,8 +457,11 @@ This situation is unprecedented and there is no silver bullet for all the issues
 </section>
 </div>
 </div>
-<script src="https://revealjs.com/lib/js/head.min.js"></script>
-<script src="https://revealjs.com/js/reveal.js"></script>
+<script src="./dist/reveal.js"></script>
+<script src="./plugin/markdown/markdown.js"></script>
+<script src="./plugin/notes/notes.js"></script>
+<script src="./plugin/search/search.js"></script>
+<script src="./plugin/zoom/zoom.js"></script>
 <script>
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
@@ -485,21 +476,19 @@ rollingLinks: false,
 keyboard: true,
 mouseWheel: false,
 fragmentInURL: false,
+hashOneBasedIndex: false,
 pdfSeparateFragments: true,
-
 overview: true,
 
-theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-transition: Reveal.getQueryHash().transition || 'convex', // see README of reveal.js for options
+transition: 'convex',
 transitionSpeed: 'default',
 
-// Optional libraries used to extend on reveal.js
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
 dependencies: [
- { src: 'https://revealjs.com/lib/js/classList.js', condition: function() { return !document.body.classList; } },
- { src: 'https://revealjs.com/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://revealjs.com/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: 'https://revealjs.com/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: 'https://revealjs.com/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+]
 
 });
 </script>
